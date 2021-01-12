@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+ <html>
+     <head>
+         <title>YOUR TITLE</title>
+           <link rel="stylesheet" href="file.css">
+            <style type="text/css">
+		    .auto-style1 {
+			 text-align: center;
+		      }
+		</style>
+     </head>
+
+      <body>
+       <strong>
+       <header>
+        <ul>
+         <li><a href="file.html">HOME</a></li>
+          <li><a href="file.html">ABOUT US</a></li>
+           <li><a href="file.html">TEST 1</a></li>
+            <li><a href="file.html">TEST 2</a></li>
+           <li><a href="file.html">TEST 3</a></li>
+           <li><a href="file.html">TEST 4</a></li>
+         </ul>
+       </header>
+      </strong>
+
+      <!--JAVASCRIPT FOR STICKY BAR-->
+       <script type="text/javascript">
+        window.addEventListener("scroll",function(){
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0)
+        })
+       </script>
+
+      </body>
+ </html>
